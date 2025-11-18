@@ -122,9 +122,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Contact
 
-- Author: Your Name
-- Email: your.email@example.com
-- LinkedIn: [Your Profile]
+- Author: NAVY LEE
+- Email: iyunseob4@gmail.com
 
 ## Acknowledgments
 

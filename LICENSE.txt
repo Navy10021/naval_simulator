@@ -1,0 +1,25 @@
+MIT License
+
+Copyright (c) 2025 Your Name
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction...
+```
+
+## 🚀 **추가 제안**
+
+### **GitHub 저장소 설정**
+
+1. **Topics 추가**:
+   - `naval-warfare`
+   - `simulation`
+   - `3d-visualization`
+   - `mine-warfare`
+   - `risk-analysis`
+   - `python`
+
+2. **About 섹션**:
+```
+   3D tactical mine field simulation for naval operations 
+   with risk analysis and route optimization

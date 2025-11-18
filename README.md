@@ -6,7 +6,7 @@
 
 A comprehensive 3D tactical mine field simulation and risk analysis system for naval operations. This simulator provides advanced modeling of mine warfare scenarios, enabling tactical analysis for both surface vessels and submarines.
 
-![Demo](docs/images/demo_results.png)
+![Demo](output/tactical_critical.png)
 
 
 ## Overview

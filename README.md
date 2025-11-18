@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 
-A comprehensive 3D tactical mine field simulation and risk analysis system for naval operations. This simulator provides advanced modeling of mine warfare scenarios, enabling tactical analysis for both surface vessels and submarines.
+**A comprehensive 3D tactical mine field simulation and risk analysis system for naval operations. This simulator provides advanced modeling of mine warfare scenarios, enabling tactical analysis for both surface vessels and submarines.**
 
 ![Demo](output/tactical_critical.png)
 ![Demo](output/route_scenarios_moderate.png)

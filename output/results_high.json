@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "timestamp": "2025-11-18T08:07:05.601297",
+    "timestamp": "2025-11-19T05:14:25.510977",
     "threat_level": "HIGH",
     "simulation_count": 250,
     "version": "3.0"
   },
   "configuration": {
     "area": {
-      "width_m": 10000,
-      "height_m": 10000,
-      "max_depth_m": 280
+      "width_m": 8000,
+      "height_m": 8000,
+      "max_depth_m": 250
     },
-    "total_mines": 300,
+    "total_mines": 145,
     "target_risk": 0.75,
     "deployment": {
       "linear_ratio": 0.7,
@@ -35,100 +35,100 @@
         30,
         55
       ],
-      "mine_radius_m": 150
+      "mine_radius_m": 32
     }
   },
   "results": {
     "surface_vessel": {
       "probabilities": {
-        "mine_hit": 0.94,
+        "mine_hit": 0.3,
         "net_hit": 0.0,
         "both_hit": 0.0,
-        "any_hit": 0.94,
-        "safe_passage": 0.06
+        "any_hit": 0.3,
+        "safe_passage": 0.7
       },
       "counts": {
-        "mine_hits": 235,
+        "mine_hits": 75,
         "net_hits": 0,
         "both_hits": 0,
-        "safe": 15
+        "safe": 175
       }
     },
     "submarine": {
       "probabilities": {
-        "mine_hit": 0.368,
-        "net_hit": 0.0,
-        "both_hit": 0.632,
-        "any_hit": 1.0,
-        "safe_passage": 0.0
+        "mine_hit": 0.0,
+        "net_hit": 0.74,
+        "both_hit": 0.0,
+        "any_hit": 0.74,
+        "safe_passage": 0.26
       },
       "counts": {
-        "mine_hits": 92,
-        "net_hits": 0,
-        "both_hits": 158,
-        "safe": 0
+        "mine_hits": 0,
+        "net_hits": 185,
+        "both_hits": 0,
+        "safe": 65
       }
     }
   },
   "route_scenarios": {
     "Straight": {
       "probabilities": {
-        "mine_hit": 0.38,
-        "net_hit": 0.0,
-        "both_hit": 0.62,
-        "any_hit": 1.0,
-        "safe_passage": 0.0
+        "mine_hit": 0.0,
+        "net_hit": 0.79,
+        "both_hit": 0.0,
+        "any_hit": 0.79,
+        "safe_passage": 0.21
       },
       "counts": {
-        "mine_hits": 38,
-        "net_hits": 0,
-        "both_hits": 62,
-        "safe": 0
+        "mine_hits": 0,
+        "net_hits": 79,
+        "both_hits": 0,
+        "safe": 21
       }
     },
     "Zig-zag": {
       "probabilities": {
-        "mine_hit": 0.28,
-        "net_hit": 0.0,
-        "both_hit": 0.72,
-        "any_hit": 1.0,
-        "safe_passage": 0.0
+        "mine_hit": 0.0,
+        "net_hit": 0.7,
+        "both_hit": 0.0,
+        "any_hit": 0.7,
+        "safe_passage": 0.3
       },
       "counts": {
-        "mine_hits": 28,
-        "net_hits": 0,
-        "both_hits": 72,
-        "safe": 0
+        "mine_hits": 0,
+        "net_hits": 70,
+        "both_hits": 0,
+        "safe": 30
       }
     },
     "Deep Dive": {
       "probabilities": {
-        "mine_hit": 0.43,
-        "net_hit": 0.0,
-        "both_hit": 0.57,
-        "any_hit": 1.0,
-        "safe_passage": 0.0
+        "mine_hit": 0.0,
+        "net_hit": 0.67,
+        "both_hit": 0.05,
+        "any_hit": 0.72,
+        "safe_passage": 0.28
       },
       "counts": {
-        "mine_hits": 43,
-        "net_hits": 0,
-        "both_hits": 57,
-        "safe": 0
+        "mine_hits": 0,
+        "net_hits": 67,
+        "both_hits": 5,
+        "safe": 28
       }
     },
     "Coastal Route": {
       "probabilities": {
-        "mine_hit": 0.37,
-        "net_hit": 0.0,
-        "both_hit": 0.63,
-        "any_hit": 1.0,
-        "safe_passage": 0.0
+        "mine_hit": 0.0,
+        "net_hit": 0.5,
+        "both_hit": 0.0,
+        "any_hit": 0.5,
+        "safe_passage": 0.5
       },
       "counts": {
-        "mine_hits": 37,
-        "net_hits": 0,
-        "both_hits": 63,
-        "safe": 0
+        "mine_hits": 0,
+        "net_hits": 50,
+        "both_hits": 0,
+        "safe": 50
       }
     }
   }

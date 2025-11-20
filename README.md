@@ -142,7 +142,7 @@ Submarine:
 └────────────────────┬────────────────────────────────────┘
                      │
 ┌────────────────────▼────────────────────────────────────┐
-│              TacticalMineSimulation                     │
+│              Tactical Mine Simulation                   │
 │  ┌──────────────────────────────────────────────────┐   │
 │  │  Mine Deployment Engine                          │   │
 │  │  - Linear deployment along core route            │   │
@@ -306,14 +306,14 @@ config = TacticalMineConfig(
 | **HIGH** | 300 | 75% | Standard tactical deployment |
 | **CRITICAL** | 450 | 90% | Dense area denial minefield |
 
-**Mine Distribution:**
+**Mine Distribution(User input value):**
 - Surface mines: 30%
 - Moored mines: 40%
 - Bottom mines: 30%
 
 ---
 
-## Simulation Parameters
+## Simulation Parameters(User input value)
 
 ### Area Configuration
 
@@ -324,7 +324,7 @@ area_height = 10000  # meters
 max_depth = 280      # meters
 ```
 
-### Mine Deployment Strategy
+### Mine Deployment Strategy(User input value)
 
 The simulator uses a **hybrid deployment strategy**:
 
@@ -346,7 +346,7 @@ Paths are discretized into 200 points by default for collision detection. Higher
 
 ## Mine Types & Deployment Strategies
 
-### Surface Mines (부유 기뢰)
+### Surface Mines
 
 **Characteristics:**
 - Depth: 3-50m below surface
@@ -362,7 +362,7 @@ Surface View:
   ○        ○     ○
 ```
 
-### Moored Mines (계류 기뢰)
+### Moored Mines
 
 **Characteristics:**
 - Depth: 30-55m (anchored to seabed)
@@ -380,7 +380,7 @@ Depth Profile:
 280m ━━━━●━━━━●━━━━●━━━ Seabed
 ```
 
-### Bottom Mines (침저 기뢰)
+### Bottom Mines
 
 **Characteristics:**
 - Position: On seabed (280m default)
@@ -389,7 +389,7 @@ Depth Profile:
 - Detection: Full 3D collision
 - Effect: Pressure/magnetic/acoustic triggers
 
-### 3D Nets (닻자망)
+### 3D Nets
 
 **Characteristics:**
 - Count: 30 per simulation

@@ -723,7 +723,7 @@ If you use this simulator in your research or publications, please cite:
 
 ```bibtex
 @software{naval_mine_simulator_2025,
-  author = {Lee, Navy},
+  author = {Lee, Yoon-seop},
   title = {Naval Mine Warfare Simulator: A 3D Tactical Simulation System},
   year = {2025},
   publisher = {GitHub},
@@ -765,11 +765,6 @@ This project was developed for naval tactical analysis and research purposes, in
 - Python scientific computing community (NumPy, Matplotlib, SciPy)
 - Contributors and users of this simulator
 
-**Related Projects:**
-- [AUV Path Planning](https://github.com/topics/auv)
-- [Maritime Simulation](https://github.com/topics/maritime-simulation)
-- [Mine Countermeasures](https://github.com/topics/mcm)
-
 ---
 
 ## Roadmap
@@ -796,7 +791,3 @@ This project was developed for naval tactical analysis and research purposes, in
 - Statistical analysis
 - Basic visualization
 
----
-
-**Last Updated**: 2025-11-18
-**Documentation Version**: 1.0.0

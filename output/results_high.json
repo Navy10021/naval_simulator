@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "timestamp": "2025-11-19T05:14:25.510977",
+    "timestamp": "2025-11-20T08:15:14.977970",
     "threat_level": "HIGH",
-    "simulation_count": 250,
+    "simulation_count": 500,
     "version": "3.0"
   },
   "configuration": {
@@ -41,32 +41,32 @@
   "results": {
     "surface_vessel": {
       "probabilities": {
-        "mine_hit": 0.3,
+        "mine_hit": 0.312,
         "net_hit": 0.0,
         "both_hit": 0.0,
-        "any_hit": 0.3,
-        "safe_passage": 0.7
+        "any_hit": 0.312,
+        "safe_passage": 0.688
       },
       "counts": {
-        "mine_hits": 75,
+        "mine_hits": 156,
         "net_hits": 0,
         "both_hits": 0,
-        "safe": 175
+        "safe": 344
       }
     },
     "submarine": {
       "probabilities": {
         "mine_hit": 0.0,
-        "net_hit": 0.74,
+        "net_hit": 0.72,
         "both_hit": 0.0,
-        "any_hit": 0.74,
-        "safe_passage": 0.26
+        "any_hit": 0.72,
+        "safe_passage": 0.28
       },
       "counts": {
         "mine_hits": 0,
-        "net_hits": 185,
+        "net_hits": 360,
         "both_hits": 0,
-        "safe": 65
+        "safe": 140
       }
     }
   },
